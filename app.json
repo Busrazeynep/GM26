@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "GM 26 Demo",
+    "slug": "busraazeynep-gm26-showcase",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./GM 26 Pro/gmicongm.png",
+    "userInterfaceStyle": "automatic",
+    "androidNavigationBar": {
+      "visible": false
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.halillcakirr.showcaseapp"
+    },
+    "android": {
+      "package": "com.busraazeynep.gm26showcase",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./GM 26 Pro/gmicongm.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e4c65b99-a294-4871-a520-976ce309bc07"
+      }
+    },
+    "owner": "busraazeynepp",
+    "plugins": [
+      "expo-video"
+    ]
+  }
+}
